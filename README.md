@@ -17,7 +17,7 @@
 - 🧠 SQL Injection testing
 - 📂 LFI / SSRF detection
 - ⚡ Smart scanning engine
-- 💻 Interactive CLI (Metasploit-style)
+- 💻 Interactive CLI (Metasploit-inspired)
 
 ---
 
