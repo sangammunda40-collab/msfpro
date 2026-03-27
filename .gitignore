@@ -1,0 +1,5 @@
+msfpro
+*.o
+*.out
+logs/
+output/
