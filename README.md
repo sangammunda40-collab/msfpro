@@ -71,5 +71,5 @@ If you like this project, give it a ⭐ on GitHub!
 ### 🟢 Modules View
 ![msfpro](screenshots/msfpro1.png)
 
-### 🔵 Scan Output
+### 🔵 Console View
 ![msfpro](screenshots/msfpro.png)
