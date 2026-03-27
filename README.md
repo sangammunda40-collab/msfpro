@@ -65,10 +65,12 @@ If you like this project, give it a ⭐ on GitHub!
 
 > Coming soon...
 
+
 ## 📸 Screenshots
+
+### 🔵 Console View
+![msfpro](screenshots/msfpro.png)
 
 ### 🟢 Modules View
 ![msfpro](screenshots/msfpro1.png)
 
-### 🔵 Console View
-![msfpro](screenshots/msfpro.png)
