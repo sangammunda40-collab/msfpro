@@ -17,8 +17,7 @@
 - 🧠 SQL Injection testing
 - 📂 LFI / SSRF detection
 - ⚡ Smart scanning engine
-- 💻 Interactive CLI (Metasploit-inspired)
-
+- 💻 Web Exploitation Framework for Termux Users
 ---
 
 ## ⚙️ Installation
