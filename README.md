@@ -1,3 +1,9 @@
+# 🔥 msfpro - Web Exploitation Framework
+
+![GitHub stars](https://img.shields.io/github/stars/sangammunda40-collab/msfpro?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/sangammunda40-collab/msfpro?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
+
 # msfpro 🔥
 
 > Lightweight Web Exploitation Framework for Bug Bounty Hunters
@@ -54,4 +60,9 @@ This tool is for educational and authorized testing only.
 ## ⭐ Support
 
 If you like this project, give it a ⭐ on GitHub!
+
+
+## 📸 Demo
+
+> Coming soon...
 
