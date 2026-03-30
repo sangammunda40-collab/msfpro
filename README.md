@@ -4,39 +4,32 @@
 ![GitHub forks](https://img.shields.io/github/forks/sangammunda40-collab/msfpro?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
 
-# msfpro 🔥
-
-> Lightweight Web Exploitation Framework for Bug Bounty Hunters
+> ⚡ Lightweight Web Exploitation Framework for Bug Bounty Hunters (Termux Friendly)
 
 ---
 
 ## 🚀 Features
 
-- 🔍 IDOR scanning
-- 💥 XSS detection
-- 🧠 SQL Injection testing
-- 📂 LFI / SSRF detection
-- ⚡ Smart scanning engine
-- 💻 Web Exploitation Framework for Termux Users
+- 🔍 IDOR scanning  
+- 💥 XSS detection  
+- 🧠 SQL Injection testing  
+- 📂 LFI / SSRF detection  
+- ⚡ Smart scanning engine  
+- 📱 Optimized for Termux  
+
 ---
 
 ## ⚙️ Installation
 
-git clone https://github.com/sangammunda40-collab/msfpro.git
-cd msfpro
-clang main.c core/http.c modules/*.c -lcurl -lpthread -o msfpro
+git clone https://github.com/sangammunda40-collab/msfpro.git  
+cd msfpro  
+clang main.c core/http.c modules/*.c -lcurl -lpthread -o msfpro  
 
 ---
 
 ## 💻 Usage
 
-./msfpro
-
-### Example
-
-use idor
-set TARGET https://example.com/api/user
-run
+./msfpro  
 
 ---
 
@@ -50,24 +43,6 @@ ssrf   - SSRF detection
 
 ---
 
-## ⚠️ Disclaimer
-
-This tool is for educational and authorized testing only.
-
----
-
-## ⭐ Support
-
-If you like this project, give it a ⭐ on GitHub!
-
-
-## 📸 Demo
-
-> Coming soon...
-
-
-## 📸 Screenshots
-
 ## 📸 Screenshots
 
 ### 🧠 Console View
@@ -76,10 +51,23 @@ If you like this project, give it a ⭐ on GitHub!
 ### 🧩 Modules View
 ![Modules](screenshots/modules.png)
 
+---
+
 ## ⚡ Tool Interaction (Live Usage)
 
-### 🔍 RustScan Integration
-![RustScan](screenshots/rustscan.png)
+### 💉 SQLMap + 🔍 RustScan Integration  
+Fast port discovery using RustScan + SQLMap testing  
 
-### 💉 SQLMap Integration
-![SQLMap](screenshots/sqlmap.png)
+![Integration](screenshots/sqlmap.png)
+
+---
+
+## ⚠️ Disclaimer
+
+For educational and authorized testing only.
+
+---
+
+## ⭐ Support
+
+Give a ⭐ if you like this project!
