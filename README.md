@@ -68,11 +68,13 @@ If you like this project, give it a ⭐ on GitHub!
 
 ## 📸 Screenshots
 
-### 🔵 Console View
-![msfpro](screenshots/msfpro.png)
+## 📸 Screenshots
 
-### 🟢 Modules View
-![msfpro](screenshots/msfpro1.png)
+### 🧠 Console View
+![Console](screenshots/console.png)
+
+### 🧩 Modules View
+![Modules](screenshots/modules.png)
 
 ## ⚡ Tool Interaction (Live Usage)
 
@@ -81,6 +83,3 @@ If you like this project, give it a ⭐ on GitHub!
 
 ### 💉 SQLMap Integration
 ![SQLMap](screenshots/sqlmap.png)
-
-### 🧠 Framework Console
-![Console](screenshots/msfpro.png)
