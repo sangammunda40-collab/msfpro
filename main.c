@@ -17,12 +17,18 @@ char COOKIE[256]="";
 char HEADER[256]="";
 char CURRENT_MODULE[50]="";
 
-void slow(const char*s){for(int i=0;s[i];i++){printf("%c",s[i]);fflush(stdout);usleep(20000);}}
+void slow(const char*s){
+    for(int i=0;s[i];i++){
+        printf("%c",s[i]);
+        fflush(stdout);
+        usleep(15000);
+    }
+}
 
 void show_banner(){
     printf("\033[1;31m"); slow("       =[ msf-pro v2 ]=\n");
     printf("\033[1;36m"); slow("+ -- --=[ Web Exploitation Framework ]\n");
-    printf("\033[1;32m"); slow("+ -- --=[ Ready for Bug Hunting 😈 ]\n\n");
+    printf("\033[1;32m"); slow("+ -- --=[ Termux Users Ready 😈 ]\n\n");
     printf("\033[1;33m"); slow("[*] Loading modules...\n"); sleep(1);
     slow("[*] Initializing engine...\n"); sleep(1);
     slow("[*] Done.\n\n");
@@ -42,9 +48,9 @@ int main(int argc,char *argv[]){
         }
     }
 
-    char input[512];
-
     show_banner();
+
+    char input[512];
 
     while(1){
         printf("\033[1;32mmsf-pro> \033[0m");
@@ -55,13 +61,11 @@ int main(int argc,char *argv[]){
         char cmd[100];
         sscanf(input,"%s",cmd);
 
-        // use
         if(strcmp(cmd,"use")==0){
             sscanf(input,"%*s %s",CURRENT_MODULE);
             printf("[+] Using %s\n",CURRENT_MODULE);
         }
 
-        // set
         else if(strcmp(cmd,"set")==0){
             char key[50], val[256];
             sscanf(input,"%*s %s %s",key,val);
@@ -71,7 +75,6 @@ int main(int argc,char *argv[]){
             else if(strcmp(key,"HEADER")==0) strcpy(HEADER,val);
         }
 
-        // show
         else if(strcmp(cmd,"show")==0){
             char arg[50]="";
             sscanf(input,"%*s %s",arg);
@@ -87,7 +90,6 @@ int main(int argc,char *argv[]){
             }
         }
 
-        // run
         else if(strcmp(cmd,"run")==0){
             if(strcmp(CURRENT_MODULE,"idor")==0) run_idor(TARGET,COOKIE,HEADER);
             else if(strcmp(CURRENT_MODULE,"fuzz")==0) run_fuzz(TARGET,COOKIE,HEADER);
@@ -100,12 +102,10 @@ int main(int argc,char *argv[]){
             else printf("[-] Unknown module\n");
         }
 
-        // exit
         else if(strcmp(cmd,"exit")==0){
             break;
         }
 
-        // shell fallback
         else{
             system(input);
         }

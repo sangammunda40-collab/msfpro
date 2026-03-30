@@ -74,3 +74,13 @@ If you like this project, give it a ⭐ on GitHub!
 ### 🟢 Modules View
 ![msfpro](screenshots/msfpro1.png)
 
+## ⚡ Tool Interaction (Live Usage)
+
+### 🔍 RustScan Integration
+![RustScan](screenshots/rustscan.png)
+
+### 💉 SQLMap Integration
+![SQLMap](screenshots/sqlmap.png)
+
+### 🧠 Framework Console
+![Console](screenshots/msfpro.png)
